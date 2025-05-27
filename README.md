@@ -9,3 +9,7 @@ finally, the vuln scanner is working fine without errors. but i think it is not 
 maybe because i am not much of a ui guy, so i want to perfect the vuln detection method before doing anything about the frontend/backend integration or even the UI itself. 
 
 So, I will implement tx.origin usage detection, unchecked external calls, weak randomness sources, missing access control, and dangerous delegatecall usage before i sleep.
+
+i am used to getting my setup run properly on cli before trying to add a web ui for it. just to feel like a god!
+
+okay, let me just work up the frontend at this point. let's even see what i have going.
