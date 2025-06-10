@@ -15,3 +15,5 @@ i am used to getting my setup run properly on cli before trying to add a web ui 
 okay, let me just work up the frontend at this point. let's even see what i have going. i downgraded my express from 5.x to 4.x and it is smooth now. backend running fine, time to get back to the frontend. some org wasted my time for an interview that never held, and while at it i lost funds i requested withdrawal for, i guess life is not fair.
 
 freaking pissed, because why on earth would tailwind be causing so much errors.
+
+g
