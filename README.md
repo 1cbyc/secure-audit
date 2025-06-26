@@ -16,4 +16,13 @@ okay, let me just work up the frontend at this point. let's even see what i have
 
 freaking pissed, because why on earth would tailwind be causing so much errors.
 
-g
+okay, i use this method:
+
+```bash
+secure-audit/
+├── scanner-engine/     # Core analysis engine
+├── backend/           # Express.js API server
+├── frontend/          # React application
+├── docs/             # Documentation
+└── docker-compose.yml # Container orchestration
+```
