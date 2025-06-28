@@ -26,3 +26,10 @@ secure-audit/
 ├── docs/             # Documentation
 └── docker-compose.yml # Container orchestration
 ```
+
+
+i just realized i hardcoded it to localhost:3001/api/analysis/public. that is why when i shut down my pc it does not scan. anyways, in api.ts i have fixed it to take from render where i updated the api.
+
+```tsx
+import { contractApi } from '../services/api';
+```
