@@ -33,3 +33,16 @@ i just realized i hardcoded it to localhost:3001/api/analysis/public. that is wh
 ```tsx
 import { contractApi } from '../services/api';
 ```
+
+okay, in the end, i simply setup a wrangler for cloudflare workers to get it running well.
+
+```bash
+# wanted to know the list of what's here in the frontend
+cd frontend; Get-ChildItem dist
+# trying to get list of deployed pages:
+npx wrangler pages deploy dist --project-name secure-audit-frontend
+# tried to get the list of urls o
+npx wrangler pages domain list --project-name secure-audit-frontend
+# then i did this
+npx wrangler pages deploy dist --project-name secure-audit
+```
